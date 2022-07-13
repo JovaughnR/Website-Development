@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
+        <meta name="viewport" content="width=device-width initial
+        scale=1.0">
+        <title>
+            Unviversity Website Design - Easy tutorials
+        </title>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="channel-pictures/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COARSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+<!-- ---- Course ----- -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Computer Science, It Ethics, Data Operation</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>These courses are the best we offer so 
+                choose wisely and pursue your dreams</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>These courses are the best we offer so 
+                choose wisely and pursue your dreams</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>These courses are the best we offer so 
+                choose wisely and pursue your dreams</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ---- Facilities ---- -->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Computer Science, It Ethics, Data Operation</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="channel-pictures/library.png">
+            <h3>World Class Library</h3>
+            <p>These courses are the best we offer so 
+                choose wisely and pursue your dreams</p>
+        </div>
+        <div class="facilities-col">
+            <img src="channel-pictures/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>These courses are the best we offer so 
+                choose wisely and pursue your dreams</p>
+        </div>
+        <div class="facilities-col">
+            <img src="channel-pictures/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>These courses are the best we offer so 
+                choose wisely and pursue your dreams</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- -----Foooter---- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Come check us out we are the best in the world so come let us teach you all you need to know and get <br>started with your
+        dream career i can garantee you that you will be well accomodated for and look after.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Jovaughn Rose</p>
+</section>
+
+
+        <!-- -----JavaScript for Toggle Menu---- -->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "200px"
+            }
+        </script>
+
+    </body>
+</html>
